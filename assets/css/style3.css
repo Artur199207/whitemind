@@ -262,7 +262,7 @@ section.choose-one.mb-140.lg-mb-80.tran5s.wow.fadeInUp {
 .textinfo{
     font-size: 18px;
     font-weight: 500;
-    font-family: 'Urbanist-Regular' !important;;
+    font-family: 'Urbanist-Regular' !important;
 }
 .soc-hub1{
     width: 100%;
@@ -297,4 +297,65 @@ section.choose-one.mb-140.lg-mb-80.tran5s.wow.fadeInUp {
 .choose-one .right-choose{
     max-width: 570px !important;
     width: 100% !important;
+}
+.contant-name{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.contant-name span{
+    font-size: 22px;
+    font-weight: bold;
+    color: #008b8b;
+}
+.content-block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.blockname{
+    width: 50%;
+}
+.blocked {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #008b8b;
+    border-radius: 5px;
+    color: #008b8b;
+    font-family: 'Urbanist-Regular' !important;
+}
+.blockText {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.texting{
+    font-size: 18px;
+    font-weight: bold;
+    color: #008b8b;
+    font-family: 'Urbanist-Regular' !important;
+}
+@media screen and (max-width:575px) {
+    .blockname{
+        width: 100%;
+    }
+}
+.oldmarg {
+    padding-top: 220px;
+    padding-bottom: 120px;
+    margin-top: 145px;
+}
+.my-contact{
+    background: #008b8b26 !important;
+}
+.my-contact .right-content{
+    background: transparent !important;
 }
